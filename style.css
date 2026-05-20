@@ -22,3 +22,28 @@ h1 {
 	color: blue;
 	text-decoration: underline zigzag;
 }
+nav {
+  background-color: #333;
+  width: 100%;
+  padding: 12px 20px
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
